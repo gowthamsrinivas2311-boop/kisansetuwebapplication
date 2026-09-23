@@ -6,8 +6,8 @@ import { Button } from '@/components/ui/Button';
 import { Badge, StarRating } from '@/components/ui/Badge';
 import { Card } from '@/components/ui/Card';
 import { EmptyListings, EmptyBuyerInterest } from '@/components/ui/EmptyState';
-import { formatCurrency, getTranslation } from '@/lib/utils';
-import { crops, farmerListings, verifiedBuyers, type LanguageCode } from '@/lib/mock-data';
+import { formatCurrency } from '@/lib/utils';
+import { crops, farmerListings, verifiedBuyers, type LanguageCode, getTranslation } from '@/lib/mock-data';
 import { cn } from '@/lib/utils';
 
 export default function MarketPage() {

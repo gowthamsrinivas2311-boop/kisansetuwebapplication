@@ -7,8 +7,8 @@ import { Button } from '@/components/ui/Button';
 import { Badge, StarRating } from '@/components/ui/Badge';
 import { Card, PriceCard } from '@/components/ui/Card';
 import { EmptyListings } from '@/components/ui/EmptyState';
-import { formatCurrency, formatRelativeTime, getTranslation } from '@/lib/utils';
-import { crops, mandiPrices, verifiedBuyers, farmerListings, type LanguageCode } from '@/lib/mock-data';
+import { formatCurrency, formatRelativeTime } from '@/lib/utils';
+import { crops, mandiPrices, verifiedBuyers, farmerListings, type LanguageCode, getTranslation } from '@/lib/mock-data';
 import { cn } from '@/lib/utils';
 
 export default function FarmerHomePage() {

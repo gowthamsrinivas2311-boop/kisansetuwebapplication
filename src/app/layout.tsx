@@ -11,7 +11,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'KisanSetu - Agri-Tech Marketplace',
   description: 'Sell directly to premium buyers & get real-time price reports',
-  themeColor: '#1E4620',
 };
 
 export const viewport: Viewport = {

@@ -2,10 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/Button';
-import { Badge } from '@/components/ui/Badge';
+import { Badge, StarRating } from '@/components/ui/Badge';
 import { Card } from '@/components/ui/Card';
 import { ComparisonBarChart } from '@/components/ui/Charts';
-import { formatCurrency, getTranslation } from '@/lib/utils';
+import { formatCurrency } from '@/lib/utils';
 import {
   buyerDashboardKPIs,
   directFarmOffers,
@@ -13,6 +13,7 @@ import {
   crops,
   type LanguageCode,
   type DirectFarmOffer,
+  getTranslation,
 } from '@/lib/mock-data';
 import { cn } from '@/lib/utils';
 import {

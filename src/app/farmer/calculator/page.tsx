@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/Button';
 import { Input, Select } from '@/components/ui/Input';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { formatCurrency, getTranslation } from '@/lib/utils';
-import { crops, type LanguageCode, CalculatorInputs, CalculatorResult } from '@/lib/mock-data';
+import { formatCurrency } from '@/lib/utils';
+import { crops, type LanguageCode, CalculatorInputs, CalculatorResult, getTranslation } from '@/lib/mock-data';
 import { cn } from '@/lib/utils';
 
 const defaultInputs: CalculatorInputs = {

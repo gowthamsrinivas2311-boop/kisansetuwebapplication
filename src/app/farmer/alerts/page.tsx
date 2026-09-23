@@ -6,8 +6,8 @@ import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { EmptyAlerts } from '@/components/ui/EmptyState';
-import { formatRelativeTime, getTranslation } from '@/lib/utils';
-import { alerts, type LanguageCode, type Alert } from '@/lib/mock-data';
+import { formatRelativeTime } from '@/lib/utils';
+import { alerts, type LanguageCode, type Alert, getTranslation } from '@/lib/mock-data';
 import { cn } from '@/lib/utils';
 import {
   TrendingUp,
