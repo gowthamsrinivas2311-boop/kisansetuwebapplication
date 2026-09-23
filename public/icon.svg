@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">KisanSetu</title>
+  <desc id="desc">Forest green KisanSetu mark on a gold background</desc>
+  <rect width="512" height="512" rx="112" fill="#1E4620"/>
+  <path fill="#FFC107" d="M256 82 88 166l168 84 168-84L256 82Zm-168 140v124l168 84 168-84V222l-168 84-168-84Zm0 166v42l168 84 168-84v-42l-168 84-168-84Z"/>
+</svg>

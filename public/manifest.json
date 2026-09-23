@@ -1,0 +1,21 @@
+{
+  "name": "KisanSetu",
+  "short_name": "KisanSetu",
+  "description": "Sell directly to premium buyers & get real-time price reports",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#1E4620",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["agriculture", "business", "finance"],
+  "lang": "en-IN",
+  "dir": "ltr"
+}
