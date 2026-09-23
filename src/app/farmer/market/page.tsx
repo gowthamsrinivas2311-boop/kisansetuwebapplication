@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Plus, Archive, Eye, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Badge, StarRating } from '@/components/ui/Badge';
@@ -81,9 +82,11 @@ export default function MarketPage() {
                       <Card variant="default" padding="md" key={listing.id} className="flex flex-col gap-4">
                         <div className="flex items-start gap-4">
                           <div className="w-20 h-20 rounded-lg bg-neutral-100 flex items-center justify-center overflow-hidden flex-shrink-0">
-                            <img
+                            <Image
                               src={listing.imageUrl}
                               alt={crop?.name || 'Crop'}
+                              width={80}
+                              height={80}
                               className="w-full h-full object-cover"
                             />
                           </div>

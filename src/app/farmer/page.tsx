@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mic, Calculator, Store, TrendingUp, Bell, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import { Badge, StarRating } from '@/components/ui/Badge';
@@ -229,9 +230,11 @@ export default function FarmerHomePage() {
                 return (
                   <Card variant="default" padding="md" key={listing.id} className="flex items-center gap-4">
                     <div className="w-16 h-16 rounded-lg bg-neutral-100 flex items-center justify-center overflow-hidden flex-shrink-0">
-                      <img
+                      <Image
                         src={listing.imageUrl}
                         alt={crop?.name || 'Crop'}
+                        width={64}
+                        height={64}
                         className="w-full h-full object-cover"
                       />
                     </div>

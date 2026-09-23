@@ -2,6 +2,7 @@
 
 import { type ReactNode, forwardRef, type HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
+import { Badge } from '@/components/ui/Badge';
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
   variant?: 'default' | 'elevated' | 'outlined';
