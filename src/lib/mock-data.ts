@@ -544,7 +544,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     // Common
     verified: 'Verified',
     grade: 'Grade',
-    quantity: 'Quantity',
+
     price: 'Price',
     distance: 'Distance',
     rating: 'Rating',
@@ -600,7 +600,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     dewasVsNearby: 'देवास बनाम आसपास की मंडियां',
     verified: 'सत्यापित',
     grade: 'ग्रेड',
-    quantity: 'मात्रा',
+
     price: 'मूल्य',
     distance: 'दूरी',
     rating: 'रेटिंग',
@@ -656,7 +656,7 @@ export const translations: Record<LanguageCode, Record<string, string>> = {
     dewasVsNearby: 'देवास विरुद्ध जवळची मंडी',
     verified: 'पडताळलेले',
     grade: 'ग्रेड',
-    quantity: 'प्रमाण',
+
     price: 'भाव',
     distance: 'अंतर',
     rating: 'रेटिंग',
